@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #0a0c11;
+  color: #dde1e9;
+  --font-display: "Segoe UI", ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "IBM Plex Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+::selection {
+  background-color: #6c7ef0;
+  color: #0a0c11;
+}
+
+* {
+  border-color: #1c212e;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #262c3b;
+  border-radius: 4px;
+}
